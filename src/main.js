@@ -4,6 +4,11 @@
 // `yarn run xmas --year 2020 --day 8 --part 2`
 // where args are year, day, part.
 
+// Problems: https://adventofcode.com/
+
+// Solutions on Reddit:
+// https://www.reddit.com/r/adventofcode/wiki/solution_megathreads
+
 const fs = require('fs')
 const path = require('path')
 // eslint-disable-next-line import/no-extraneous-dependencies
