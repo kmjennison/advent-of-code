@@ -48,3 +48,8 @@ export const part2 = (input) => {
       return newCount
     }, 0)
 }
+
+// Other approaches:
+// * use regex to get inputs: new RegExp(/([0-9]+)-([0-9]+) ([a-z]): (.*)/);
+// * use a counter rather than `reduce`` to improve efficiency
+// * use `[...password].filter()` to count occurrences rather than regex
